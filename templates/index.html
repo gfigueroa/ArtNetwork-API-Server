@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+<html>
+    <head>
+    </head>
+
+    <body>
+        {% block content %}
+            <div id="content">
+                <h2>Login & Register</h2>
+                <ul>
+                    <li><a href="/login">Log in (POST)</a></li>
+                    <li><a href="/signup">Sign up (POST)</a></li>
+                </ul>
+                <h2>Home Screen</h2>
+                <ul>
+                    <li><a href="/banner">Banner</a></li>
+                </ul>
+            </div>
+        {% end %}
+    </body>
+</html>

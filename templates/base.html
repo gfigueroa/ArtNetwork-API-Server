@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>{% block title %}ArtMeGo API Server{% end %}</title>
+    </head>
+
+    <body>
+        {% block header %}
+            <div id="header">
+                <h1>ArtMeGo API Server</h1>
+            </div>
+        {% end %}
+        {% block content %}<div id="content"></div>{% end %}
+        {% block footer %}
+            <br/><br/><br/><br/><br/><br/><br/>
+            <hr/>
+            <div id="footer">
+                <small>
+                    ArtMeGo　版權所有 &copy; 2015 ArtMeGo Inc. Taiwan. All Rights Reserved.<br/>
+                    <a href="http://www.artmego.tw">www.artmego.tw</a>
+                </small>
+            </div>
+        {% end %}
+    </body>
+</html>
