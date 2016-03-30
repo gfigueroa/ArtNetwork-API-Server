@@ -20,7 +20,7 @@ Engineers and designers at ArtMeGo team
 
 ## Directory Structure
 
-    ArtMeGo_API_Tornado/
+    ArtMeGo_API_Server/
         handlers/
         lib/
         logconfig/
